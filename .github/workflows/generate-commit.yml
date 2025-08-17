@@ -2,7 +2,8 @@ name: generate breakout svg
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    #- cron: "0 */24 * * *"
+    - cron: "35 18 * * *"
   workflow_dispatch:
 
 jobs:
